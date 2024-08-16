@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@tiptap/extension-color": "^2.6.2",
+    "@tiptap/extension-list-item": "^2.6.2",
+    "@tiptap/extension-table": "^2.6.2",
+    "@tiptap/extension-table-cell": "^2.6.2",
+    "@tiptap/extension-table-header": "^2.6.2",
+    "@tiptap/extension-table-row": "^2.6.2",
+    "@tiptap/extension-text-style": "^2.6.2",
+    "@tiptap/pm": "^2.6.2",
+    "@tiptap/starter-kit": "^2.6.2",
+    "@tiptap/vue-3": "^2.6.2",
+    "docx-preview": "^0.3.2",
+    "nuxt": "^3.12.4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.1.14",
+    "@unocss/nuxt": "^0.62.1",
+    "@unocss/preset-icons": "^0.62.1",
+    "unocss": "^0.62.1"
+  }
+}
